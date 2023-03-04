@@ -1,0 +1,346 @@
+"City","ID","Name","Sex","Age","Height","Weight","Team","NOC","Games","Year","Season","Sport","Event","Medal","Country","host","TeamEvent","won","n_medals"
+"Rio de Janeiro",104227,"Timur Marselevich Safin",1,23,182,82,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual","Bronze","Brazil",0,0,1,0
+"Rio de Janeiro",17585,"Alexandre Camargo",1,17,177,75,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",1,1,0,0
+"Rio de Janeiro",75935,"Anna Mrton",0,21,180,70,"Hungary","HUN","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",20427,"Aleksey Borisovich Cheremisinov",1,31,183,75,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",114700,"Benjamin Steffen",1,34,189,78,"Switzerland","SUI","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",18840,"Andrea Cassar",1,32,193,93,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,3
+"Rio de Janeiro",2207,"Ayman Alaa El-Din Mohamed Fayez",1,25,181,72,"Egypt","EGY","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",68620,"Charlotte Lembach",0,28,164,57,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",74130,"Auriane Mallo",0,22,180,63,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",8946,"Sandro Bazadze",1,23,193,88,"Georgia","GEO","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",39802,"Tiffany Groudet",0,29,170,68,"Switzerland","SUI","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",101785,"John dison Rodrguez Quevedo",1,25,205,102,"Colombia","COL","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",127566,"Vasiliki Vougiouka",0,30,181,70,"Greece","GRE","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",119642,"Ysaora Jennifer Thibus",0,24,174,59,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",61806,"Olga Aleksandrovna Kochneva",0,28,168,58,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team","Bronze","Brazil",0,1,1,0
+"Rio de Janeiro",495,"Alaaeldin Ahmad El-Sayyid Abouelkassem",1,25,188,87,"Egypt","EGY","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,1
+"Rio de Janeiro",51134,"Kelley Anne Hurley",0,28,175,75,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,1
+"Rio de Janeiro",45138,"Laurence Halsted",1,32,185,85,"Great Britain","GBR","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",109674,"Shi Jialuo",1,23,184,71,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",91495,"Park Gyeong-Du",1,32,177,77,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",86206,"Bohdan Sergiyevych Nikishyn",1,36,188,85,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",43412,"Gu Bon-Gil",1,27,182,70,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",95300,"Paolo Pizzo",1,33,180,70,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team","Silver","Brazil",0,1,1,0
+"Rio de Janeiro",131654,"Dagmara Wozniak (Woniak-)",0,28,173,81,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",52053,"Gza Imre",1,41,184,75,"Hungary","HUN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual","Silver","Brazil",0,0,1,2
+"Rio de Janeiro",71060,"Tatyana Yuryevna Logunova",0,36,174,62,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team","Bronze","Brazil",0,1,1,1
+"Rio de Janeiro",1730,"Monica Aksamit",0,26,183,74,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team","Bronze","Brazil",0,1,1,0
+"Rio de Janeiro",41656,"rsula Sarah Gonzlez Garate",0,24,171,71,"Mexico","MEX","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",68588,"Olha Oleksandrivna Leleiko",0,39,178,68,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",64399,"Richard Adam Kruse",1,33,190,84,"Great Britain","GBR","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",13908,"Ins Boubakri",0,27,167,56,"Tunisia","TUN","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual","Bronze","Brazil",0,0,1,0
+"Rio de Janeiro",2082,"Lubna Al-Omair",0,29,152,45,"Saudi Arabia","KSA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",78380,"Guilherme Melaragno",1,22,184,88,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",1,0,0,0
+"Rio de Janeiro",110915,"Sin A-Lam",0,29,168,56,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,1
+"Rio de Janeiro",27750,"Eli Dershwitz",1,20,185,77,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",47885,"Anatoliy Anatoliyovych Herei",1,27,186,75,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",19644,"Miles Cleveland Chamley-Watson",1,26,193,80,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team","Bronze","Brazil",0,1,1,0
+"Rio de Janeiro",110915,"Sin A-Lam",0,29,168,56,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",32480,"Irina Embrich (Zamkovaja-)",0,36,170,54,"Estonia","EST","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",104227,"Timur Marselevich Safin",1,23,182,82,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team","Gold","Brazil",0,1,1,1
+"Rio de Janeiro",51133,"Courtney Lyn Hurley",0,25,173,80,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",71060,"Tatyana Yuryevna Logunova",0,36,174,62,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,2
+"Rio de Janeiro",91120,"Kseniya Hennadivna Panteleieva",0,22,168,75,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",80922,"Noura Mohamed",0,18,173,60,"Egypt","EGY","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",17863,"Marie-Florence Candassamy",0,25,185,74,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",60761,"Erika Kirpu",0,24,174,61,"Estonia","EST","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",87174,"Nikolai Novosjolov",1,36,191,93,"Estonia","EST","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",124579,"Saskia Loretta van Erven Garca",0,28,175,64,"Colombia","COL","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",57230,"Kang Young-Mi",0,31,164,63,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",93550,"Ghislain Gabriel Perrier",1,29,179,75,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",1,1,0,0
+"Rio de Janeiro",38841,"Daniele Garozzo",1,23,177,65,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual","Gold","Brazil",0,0,1,0
+"Rio de Janeiro",107837,"Athos Marangon Schwantes",1,31,190,85,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",1,1,0,0
+"Rio de Janeiro",105556,"Andrea Santarelli",1,23,184,76,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team","Silver","Brazil",0,1,1,0
+"Rio de Janeiro",51389,"Hwang Seo-Na",0,26,163,55,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",36475,"Tarek Fouad Muhammad Kamil Ayad",1,29,180,75,"Egypt","EGY","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",90667,"Seyed Ali Pakdaman Esmaeilzadeh",1,25,193,94,"Iran","IRI","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",133079,"Yoon Ji-Su",0,23,170,60,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",57230,"Kang Young-Mi",0,31,164,63,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",59512,"Maksym Volodymyrovych Khvorost",1,34,186,85,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",69929,"Francisco Alberto Limardo Gascn",1,29,180,75,"Venezuela","VEN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",59280,"Anissa Khelfaoui (-Nassonenko)",0,24,168,62,"Algeria","ALG","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",61435,"Edina Monika Knapek",0,38,166,53,"Hungary","HUN","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",96112,"Simona Pop (Deac-)",0,27,178,62,"Romania","ROU","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",96112,"Simona Pop (Deac-)",0,27,178,62,"Romania","ROU","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team","Gold","Brazil",0,1,1,0
+"Rio de Janeiro",12574,"Gbor Gyula Boczk",1,39,192,89,"Hungary","HUN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",131654,"Dagmara Wozniak (Woniak-)",0,28,173,81,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team","Bronze","Brazil",0,1,1,0
+"Rio de Janeiro",106488,"Fernando Augusto Dias Scavasin",1,31,184,80,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",1,1,0,0
+"Rio de Janeiro",56091,"Bogna Jwiak",0,33,182,80,"Poland","POL","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",9612,"Julia Beljajeva",0,24,176,70,"Estonia","EST","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",9612,"Julia Beljajeva",0,24,176,70,"Estonia","EST","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",51133,"Courtney Lyn Hurley",0,25,173,80,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,1
+"Rio de Janeiro",20427,"Aleksey Borisovich Cheremisinov",1,31,183,75,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team","Gold","Brazil",0,1,1,0
+"Rio de Janeiro",120774,"Kenta Tokunan",1,28,183,83,"Japan","JPN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",4442,"Vadim Vladimirovich Anokhin",1,24,192,91,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",14698,"Ana Maria Florentina Brnz-Popescu",0,31,175,64,"Romania","ROU","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",59209,"Olha Hennadivna Kharlan",0,25,172,68,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team","Silver","Brazil",0,1,1,2
+"Rio de Janeiro",80887,"Aida Gabriella Mohamed",0,40,162,57,"Hungary","HUN","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",89932,"Yuki Ota",1,30,171,69,"Japan","JPN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,2
+"Rio de Janeiro",73068,"Leonora Mackinnon",0,22,180,80,"Canada","CAN","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",56091,"Bogna Jwiak",0,33,182,80,"Poland","POL","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",107837,"Athos Marangon Schwantes",1,31,190,85,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",1,0,0,0
+"Rio de Janeiro",76230,"Alexander Chen Massialas",1,22,188,81,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual","Silver","Brazil",0,0,1,0
+"Rio de Janeiro",91120,"Kseniya Hennadivna Panteleieva",0,22,168,75,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",34717,"Fares Al-Ferjani",1,19,175,60,"Tunisia","TUN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",47325,"Max Heinzer",1,28,178,77,"Switzerland","SUI","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",67538,"Erwann Lucien douard Le Pchoux",1,34,171,65,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",47325,"Max Heinzer",1,28,178,77,"Switzerland","SUI","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",54630,"Daniel Jrent",1,25,189,84,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",20194,"Chen Haiwei",1,21,188,78,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",121073,"Jean-Paul Tony Helissey",1,26,177,77,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team","Silver","Brazil",0,1,1,0
+"Rio de Janeiro",17863,"Marie-Florence Candassamy",0,25,185,74,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",93550,"Ghislain Gabriel Perrier",1,29,179,75,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",1,0,0,0
+"Rio de Janeiro",10960,"Sarra Besbes",0,27,175,62,"Tunisia","TUN","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",65322,"Kristina Kuusk",0,30,180,74,"Estonia","EST","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",17238,"Jrmy Cadot",1,29,185,78,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",86206,"Bohdan Sergiyevych Nikishyn",1,36,188,85,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",45138,"Laurence Halsted",1,32,185,85,"Great Britain","GBR","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",67572,"Antonio Junior Leal Pia",1,29,165,60,"Venezuela","VEN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",78380,"Guilherme Melaragno",1,22,184,88,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",1,1,0,0
+"Rio de Janeiro",69929,"Francisco Alberto Limardo Gascn",1,29,180,75,"Venezuela","VEN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",14698,"Ana Maria Florentina Brnz-Popescu",0,31,175,64,"Romania","ROU","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team","Gold","Brazil",0,1,1,1
+"Rio de Janeiro",45408,"Mohamed Hamza",1,15,172,62,"Egypt","EGY","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",17238,"Jrmy Cadot",1,29,185,78,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team","Silver","Brazil",0,1,1,0
+"Rio de Janeiro",45877,"Hao Jialu",0,28,176,66,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team","Silver","Brazil",0,1,1,0
+"Rio de Janeiro",43311,"Gauthier Grumier",1,32,188,83,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual","Bronze","Brazil",0,0,1,0
+"Rio de Janeiro",63541,"Magorzata Kozaczuk",0,28,169,62,"Poland","POL","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",32480,"Irina Embrich (Zamkovaja-)",0,36,170,54,"Estonia","EST","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",91583,"Park Sang-Young",1,20,177,73,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual","Gold","Brazil",0,0,1,0
+"Rio de Janeiro",21023,"Choi In-Jeong",0,26,174,59,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,1
+"Rio de Janeiro",68620,"Charlotte Lembach",0,28,164,57,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",1203,"Renzo Pasquale Zeglio Agresta",1,31,181,76,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",1,0,0,0
+"Rio de Janeiro",64451,"Olena Serhivna Kryvytska",0,29,174,62,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",21173,"Alexander Choupenitch",1,22,196,89,"Czech Republic","CZE","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",13652,"Peer Borsky",1,25,192,80,"Switzerland","SUI","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",4442,"Vadim Vladimirovich Anokhin",1,24,192,91,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",109527,"Yana Volodymyrivna Shemiakina",0,30,168,60,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,1
+"Rio de Janeiro",52053,"Gza Imre",1,41,184,75,"Hungary","HUN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team","Bronze","Brazil",0,1,1,3
+"Rio de Janeiro",44239,"Astrid Murielle Guyart",0,33,174,59,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",11273,"Ilaria Bianco",0,36,165,55,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",86515,"Shiho Nishioka",0,27,169,60,"Japan","JPN","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",117523,"ron Szilgyi",1,26,180,78,"Hungary","HUN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual","Gold","Brazil",0,0,1,1
+"Rio de Janeiro",127659,"V Thnh An",1,23,185,80,"Vietnam","VIE","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",86770,"Nozomi Nokano-Sato",0,30,173,61,"Japan","JPN","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",111318,"Hamid (Victor-) Sints",1,35,169,67,"Algeria","ALG","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",34718,"Mohamed Ayoub Al-Ferjani",1,30,185,88,"Tunisia","TUN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",60761,"Erika Kirpu",0,24,174,61,"Estonia","EST","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",38841,"Daniele Garozzo",1,23,177,65,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,1
+"Rio de Janeiro",17837,"Kelvin Jos Caa Infante",1,28,173,72,"Venezuela","VEN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",41227,"Carolin Elisabeth Golubytskyi (Wutz-)",0,30,167,57,"Germany","GER","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",38842,"Enrico Garozzo",1,27,190,70,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",109527,"Yana Volodymyrivna Shemiakina",0,30,168,60,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",127503,"Olena Oleksandrivna Voronina",0,26,165,65,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team","Silver","Brazil",0,1,1,0
+"Rio de Janeiro",27713,"Inna Vasilyevna Deriglazova",0,26,173,61,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual","Gold","Brazil",0,0,1,1
+"Rio de Janeiro",112678,"Aleksandra Anna Socha (-Szelagowski)",0,34,174,66,"Poland","POL","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",70689,"Liu Yongshi",0,26,176,62,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",63541,"Magorzata Kozaczuk",0,28,169,62,"Poland","POL","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",76230,"Alexander Chen Massialas",1,22,188,81,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team","Bronze","Brazil",0,1,1,1
+"Rio de Janeiro",495,"Alaaeldin Ahmad El-Sayyid Abouelkassem",1,25,188,87,"Egypt","EGY","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",4646,"Chika Aoki",0,26,158,54,"Japan","JPN","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",54630,"Daniel Jrent",1,25,189,84,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team","Gold","Brazil",0,1,1,0
+"Rio de Janeiro",78281,"Gerek Lin Meinhardt",1,26,183,80,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team","Bronze","Brazil",0,1,1,0
+"Rio de Janeiro",5277,"Tania Karina Arrayales Macas",0,20,158,53,"Mexico","MEX","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",12574,"Gbor Gyula Boczk",1,39,192,89,"Hungary","HUN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team","Bronze","Brazil",0,1,1,1
+"Rio de Janeiro",79400,"Nataly de la Luz Michel Silva",0,26,171,62,"Mexico","MEX","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",112678,"Aleksandra Anna Socha (-Szelagowski)",0,34,174,66,"Poland","POL","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",57571,"Dmytro Mykolaiovych Kariuchenko",1,36,179,79,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",6198,"Julin Ayala Navarrete",1,24,171,80,"Mexico","MEX","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",93280,"Mara Beln Prez Maurice",0,31,180,68,"Argentina","ARG","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",80820,"Nathalie Marie Moellhausen",0,30,177,63,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",1,1,0,0
+"Rio de Janeiro",29842," Th Anh",0,20,165,58,"Vietnam","VIE","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",81456,"Aldo Montano",1,37,184,82,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,4
+"Rio de Janeiro",62433,"Man Wai ""Vivian"" Kong",0,22,178,66,"Hong Kong","HKG","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",64399,"Richard Adam Kruse",1,33,190,84,"Great Britain","GBR","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",125779,"Sofiya Aleksandrovna Velikaya",0,31,175,70,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team","Gold","Brazil",0,1,1,1
+"Rio de Janeiro",26949,"Tams Decsi",1,33,178,82,"Hungary","HUN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",67538,"Erwann Lucien douard Le Pchoux",1,34,171,65,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team","Silver","Brazil",0,1,1,0
+"Rio de Janeiro",116303,"Pavel Vladimirovich Sukhov",1,28,179,75,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",120793,"Guilherme Amaral Toldo",1,23,176,70,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",1,1,0,0
+"Rio de Janeiro",5277,"Tania Karina Arrayales Macas",0,20,158,53,"Mexico","MEX","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",99485,"Andrs Rdli",1,32,193,83,"Hungary","HUN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",14215,"Alexandre Bouzaid",1,35,168,75,"Senegal","SEN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",43835,"Maria Loreta Gulotta",0,29,174,63,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",79907,"Katherine Miller",0,22,180,74,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",1,1,0,0
+"Rio de Janeiro",54558,"Jeong Jin-Seon",1,32,185,83,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,1
+"Rio de Janeiro",43311,"Gauthier Grumier",1,32,188,83,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team","Gold","Brazil",0,1,1,1
+"Rio de Janeiro",17512,"Mlina Clugreanu",0,19,176,66,"Romania","ROU","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",133685,"Mariel Leigh Zagunis",0,31,173,72,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team","Bronze","Brazil",0,1,1,3
+"Rio de Janeiro",64451,"Olena Serhivna Kryvytska",0,29,174,62,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",1649,"Artur Kamilevich Akhmatkhuzin",1,28,187,79,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",68450,"Lei Sheng",1,32,193,77,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,1
+"Rio de Janeiro",51134,"Kelley Anne Hurley",0,28,175,75,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",72712,"Hanna yczbiska",0,26,178,64,"Poland","POL","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",133752,"Youssra Zakarani",0,21,162,58,"Morocco","MAR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",133685,"Mariel Leigh Zagunis",0,31,173,72,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,4
+"Rio de Janeiro",42730,"Rossella Gregorio",0,25,164,60,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",99886,"Lauren Rembi",0,24,178,60,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",6743,"Marta Baenza Centurion",0,24,164,52,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",1,0,0,0
+"Rio de Janeiro",40417,"Isis Raymari Gimnez Surez",0,26,170,68,"Venezuela","VEN","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",72025,"Jean-Michel Lucenay",1,38,186,78,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team","Gold","Brazil",0,1,1,0
+"Rio de Janeiro",82901,"Ibtihaj Muhammad",0,30,170,68,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",47885,"Anatoliy Anatoliyovych Herei",1,27,186,75,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",20571,"Ka Long ""Edgar"" Cheung",1,19,181,68,"Hong Kong","HKG","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",95300,"Paolo Pizzo",1,33,180,70,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",72724,"Ma Jianfei",1,32,186,78,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",40004,"Simona Cristina Gherman (Alexandru-)",0,31,170,58,"Romania","ROU","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team","Gold","Brazil",0,1,1,0
+"Rio de Janeiro",120793,"Guilherme Amaral Toldo",1,23,176,70,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",1,0,0,0
+"Rio de Janeiro",33257,"Mohamed Essam Al-Din Hassanain",1,21,180,74,"Egypt","EGY","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",60028,"Kim Jeong-Hwan",1,32,178,66,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual","Bronze","Brazil",0,0,1,1
+"Rio de Janeiro",132795,"Yana Karapetovna Yegoryan",0,22,175,64,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team","Gold","Brazil",0,1,1,0
+"Rio de Janeiro",113034,"Pter Somfai",1,36,188,85,"Hungary","HUN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team","Bronze","Brazil",0,1,1,0
+"Rio de Janeiro",33257,"Mohamed Essam Al-Din Hassanain",1,21,180,74,"Egypt","EGY","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",3403,"Mohamed Amer",1,18,199,80,"Egypt","EGY","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",383,"Mojtaba Abedini Shormasti",1,31,180,83,"Iran","IRI","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",39168,"Yuliya Petrovna Gavrilova",0,27,169,56,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team","Gold","Brazil",0,1,1,0
+"Rio de Janeiro",7217,"Andrea Baldini",1,30,175,70,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,1
+"Rio de Janeiro",109532,"Shen Chen",0,26,171,62,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",69930,"Rubn Daro Limardo Gascn",1,31,175,75,"Venezuela","VEN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,1
+"Rio de Janeiro",68450,"Lei Sheng",1,32,193,77,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",59209,"Olha Hennadivna Kharlan",0,25,172,68,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual","Bronze","Brazil",0,0,1,3
+"Rio de Janeiro",110649,"Amanda Netto Simeo",0,22,166,62,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",1,1,0,0
+"Rio de Janeiro",110096,"Lyubov Andreyevna Shutova",0,33,177,64,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",75301,"Henrique Tavian Pereira Marques",1,19,178,71,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",1,0,0,0
+"Rio de Janeiro",59341,"Sergey Viktorovich Khodos",1,30,197,87,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",10279,"Ji Beran",1,34,192,80,"Czech Republic","CZE","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",18840,"Andrea Cassar",1,32,193,93,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,3
+"Rio de Janeiro",63873,"Olena Vitalivna Kravatska",0,24,176,66,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",34882,"Silvio Ernesto Fernndez Briceo",1,37,193,80,"Venezuela","VEN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",34882,"Silvio Ernesto Fernndez Briceo",1,37,193,80,"Venezuela","VEN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",43835,"Maria Loreta Gulotta",0,29,174,63,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",28685,"Loredana Dinu (Iordchioiu-)",0,32,168,60,"Romania","ROU","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team","Gold","Brazil",0,1,1,0
+"Rio de Janeiro",116514,"Sun Yujie",0,23,185,78,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team","Silver","Brazil",0,1,1,2
+"Rio de Janeiro",132192,"Aleksey Andreyevich Yakimenko",1,32,184,80,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",15119,"Maxime Brinck-Croteau",1,30,178,83,"Canada","CAN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",91583,"Park Sang-Young",1,20,177,73,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,1
+"Rio de Janeiro",10112,"Alejandra Jhonay de Jess Bentez Romero",0,36,169,62,"Venezuela","VEN","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",85727,"Nguyn Th L Dung",0,32,168,55,"Vietnam","VIE","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",36475,"Tarek Fouad Muhammad Kamil Ayad",1,29,180,75,"Egypt","EGY","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",95921,"Joseph Polossifakis",1,25,178,77,"Canada","CAN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",20194,"Chen Haiwei",1,21,188,78,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",125608,"Irene Vecchi",0,27,170,56,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",23307,"Rayssa Costa de Oliveira",0,25,176,63,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",1,0,0,0
+"Rio de Janeiro",42770,"Eileen Grench",0,29,152,59,"Panama","PAN","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",35147,"Marco Fichera",1,22,180,74,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",116303,"Pavel Vladimirovich Sukhov",1,28,179,75,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",79670,"Sbin Mikina",0,28,168,51,"Azerbaijan","AZE","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",108698,"Seo Ji-Yeon",0,23,168,56,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",10958,"Azza Besbes",0,25,175,62,"Tunisia","TUN","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",96742,"Ren Pranz",1,30,184,76,"Austria","AUT","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",68286,"Enzo-Boris Lefort",1,24,190,80,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",80184,"Kazuyasu Minobe",1,29,177,75,"Japan","JPN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",59588,"Lee Kiefer",0,22,163,49,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",41656,"rsula Sarah Gonzlez Garate",0,24,171,71,"Mexico","MEX","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",53261,"Josphine Jacques-Andr-Coquin",0,25,170,51,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",78281,"Gerek Lin Meinhardt",1,26,183,80,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",35147,"Marco Fichera",1,22,180,74,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team","Silver","Brazil",0,1,1,0
+"Rio de Janeiro",54482,"Jeon Hui-Suk",0,32,169,60,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",72724,"Ma Jianfei",1,32,186,78,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",101565,"Tas de Morais Rochel",0,32,165,61,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",1,0,0,0
+"Rio de Janeiro",99485,"Andrs Rdli",1,32,193,83,"Hungary","HUN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team","Bronze","Brazil",0,1,1,0
+"Rio de Janeiro",78801,"Marcus John Charles Mepstead",1,26,183,78,"Great Britain","GBR","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",69930,"Rubn Daro Limardo Gascn",1,31,175,75,"Venezuela","VEN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",42730,"Rossella Gregorio",0,25,164,60,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",31023,"Yekaterina Vladimirovna Dyachenko",0,28,167,53,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team","Gold","Brazil",0,1,1,0
+"Rio de Janeiro",49661,"Daryl Homer",1,26,173,74,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual","Silver","Brazil",0,0,1,0
+"Rio de Janeiro",15769,"Manon Brunet",0,20,165,55,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",62254,"Violetta Vitalyevna Kolobova",0,25,176,64,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team","Bronze","Brazil",0,1,1,0
+"Rio de Janeiro",62321,"Alina Ivanivna Komashchuk",0,23,169,75,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",62321,"Alina Ivanivna Komashchuk",0,23,169,75,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team","Silver","Brazil",0,1,1,0
+"Rio de Janeiro",56301,"Jung Seung-Hwa",1,35,180,80,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",91918,"Pancho Paskov",1,22,178,77,"Bulgaria","BUL","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",6073,"Anton Alekseyevich Avdeyev",1,29,174,85,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",75301,"Henrique Tavian Pereira Marques",1,19,178,71,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",1,1,0,0
+"Rio de Janeiro",116514,"Sun Yujie",0,23,185,78,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,3
+"Rio de Janeiro",57571,"Dmytro Mykolaiovych Kariuchenko",1,36,179,79,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",67473,"Le Huilin",0,27,172,62,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",108698,"Seo Ji-Yeon",0,23,168,56,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",33057,"Arianna Errigo",0,28,180,68,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,2
+"Rio de Janeiro",117342,"Matyas Szabo",1,24,183,82,"Germany","GER","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",54558,"Jeong Jin-Seon",1,32,185,83,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",6131,"Giorgio Avola",1,27,178,72,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,1
+"Rio de Janeiro",82901,"Ibtihaj Muhammad",0,30,170,68,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team","Bronze","Brazil",0,1,1,0
+"Rio de Janeiro",46324,"Max Hartung",1,26,189,86,"Germany","GER","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",117407,"Emese Judit Szsz",0,33,176,71,"Hungary","HUN","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual","Gold","Brazil",0,0,1,0
+"Rio de Janeiro",120797,"Julieta Isabel Toledo Ames",0,19,166,66,"Mexico","MEX","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",68286,"Enzo-Boris Lefort",1,24,190,80,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team","Silver","Brazil",0,1,1,0
+"Rio de Janeiro",34997,"Nicolas Massao Ferreira Silva",1,23,185,84,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",1,0,0,0
+"Rio de Janeiro",6073,"Anton Alekseyevich Avdeyev",1,29,174,85,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",120797,"Julieta Isabel Toledo Ames",0,19,166,66,"Mexico","MEX","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",38842,"Enrico Garozzo",1,27,190,70,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team","Silver","Brazil",0,1,1,0
+"Rio de Janeiro",41285,"Daniel Gmez Tanamachi",1,26,178,78,"Mexico","MEX","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",19644,"Miles Cleveland Chamley-Watson",1,26,193,80,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",109215,"Aida Vladimirovna Shanayeva",0,30,173,63,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,2
+"Rio de Janeiro",125608,"Irene Vecchi",0,27,170,56,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",87909,"Diego Occhiuzzi",1,35,180,76,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,3
+"Rio de Janeiro",124671,"Seppe Van Holsbeke",1,28,193,93,"Belgium","BEL","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",1649,"Artur Kamilevich Akhmatkhuzin",1,28,187,79,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team","Gold","Brazil",0,1,1,0
+"Rio de Janeiro",125779,"Sofiya Aleksandrovna Velikaya",0,31,175,70,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual","Silver","Brazil",0,0,1,2
+"Rio de Janeiro",84428,"Nam Hyeon-Hui",0,34,155,46,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,2
+"Rio de Janeiro",44653,"Nada Hafez",0,18,168,58,"Egypt","EGY","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",13436,"Yannick Philippe Andr Borel",1,27,197,100,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",54810,"Jiao Yunlong",1,28,190,87,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",91495,"Park Gyeong-Du",1,32,177,77,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",49497,"Katharine Holmes",0,23,180,80,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",110649,"Amanda Netto Simeo",0,22,166,62,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",1,0,0,0
+"Rio de Janeiro",132795,"Yana Karapetovna Yegoryan",0,22,175,64,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual","Gold","Brazil",0,0,1,1
+"Rio de Janeiro",52355,"Yoandry Iriarte Glvez",1,30,177,79,"Cuba","CUB","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",62254,"Violetta Vitalyevna Kolobova",0,25,176,64,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",6131,"Giorgio Avola",1,27,178,72,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",40004,"Simona Cristina Gherman (Alexandru-)",0,31,170,58,"Romania","ROU","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",122163,"Katarzyna Trzopek",0,35,176,74,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",69987,"Lin Po Heung",0,31,164,58,"Hong Kong","HKG","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",116511,"Sun Yiwen",0,24,177,63,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual","Bronze","Brazil",0,0,1,0
+"Rio de Janeiro",116511,"Sun Yiwen",0,24,177,63,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team","Silver","Brazil",0,1,1,1
+"Rio de Janeiro",116497,"Sun Wei",1,23,193,69,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",80820,"Nathalie Marie Moellhausen",0,30,177,63,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",1,0,0,0
+"Rio de Janeiro",29204,"Tiberiu Alexandru Dolniceanu",1,28,179,79,"Romania","ROU","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",10315,"Ccilia Berder",0,26,171,65,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",97399,"Marta Puda",0,25,172,59,"Poland","POL","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",49497,"Katharine Holmes",0,23,180,80,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",62582,"Aikaterini-Maria Kontokhristopoulou",0,19,168,58,"Greece","GRE","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",132051,"Xu Anqi",0,24,182,76,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team","Silver","Brazil",0,1,1,1
+"Rio de Janeiro",46353,"Eleanor Harvey",0,21,172,56,"Canada","CAN","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",63873,"Olena Vitalivna Kravatska",0,24,176,66,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team","Silver","Brazil",0,1,1,0
+"Rio de Janeiro",97313,"Jason Pryor",1,28,175,80,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",34997,"Nicolas Massao Ferreira Silva",1,23,185,84,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",1,1,0,0
+"Rio de Janeiro",52020,"Race Alick Reid Imboden",1,23,185,75,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team","Bronze","Brazil",0,1,1,0
+"Rio de Janeiro",85730,"Nguyn Th Nh Hoa",0,30,170,60,"Vietnam","VIE","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",4473,"Vincent Anstett",1,34,178,78,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",99886,"Lauren Rembi",0,24,178,60,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",74130,"Auriane Mallo",0,22,180,63,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",13436,"Yannick Philippe Andr Borel",1,27,197,100,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team","Gold","Brazil",0,1,1,0
+"Rio de Janeiro",110096,"Lyubov Andreyevna Shutova",0,33,177,64,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team","Bronze","Brazil",0,1,1,0
+"Rio de Janeiro",114700,"Benjamin Steffen",1,34,189,78,"Switzerland","SUI","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",10315,"Ccilia Berder",0,26,171,65,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",13970,"Saoussen Boudiaf",0,22,173,69,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",104549,"Gbahi Gwladys Sakoa",0,23,171,64,"Cote d'Ivoire","CIV","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",119235,"Alejandra Tern Eligio",0,25,176,73,"Mexico","MEX","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",16992,"Aleksandr Nikolayevich Buykevich",1,31,191,80,"Belarus","BLR","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",35134,"Rossella Fiamingo",0,25,167,50,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual","Silver","Brazil",0,0,1,0
+"Rio de Janeiro",55866,"Peter Joppich",1,33,176,68,"Germany","GER","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",96874,"Nzingha Prescod",0,23,163,62,"United States","USA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",20996,"Choi Eun-Sook",0,30,169,59,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,1
+"Rio de Janeiro",25696,"James-Andrew Davis",1,25,195,98,"Great Britain","GBR","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",15769,"Manon Brunet",0,20,165,55,"France","FRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",23307,"Rayssa Costa de Oliveira",0,25,176,63,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",1,1,0,0
+"Rio de Janeiro",25696,"James-Andrew Davis",1,25,195,98,"Great Britain","GBR","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",21023,"Choi In-Jeong",0,26,174,59,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",28072,"Elisa Di Francisca",0,33,177,65,"Italy","ITA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual","Silver","Brazil",0,0,1,2
+"Rio de Janeiro",16335,"Ana Beatriz ""Bia"" di Rienzo Bulco",0,22,167,58,"Brazil","BRA","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",1,0,0,0
+"Rio de Janeiro",47803,"Heo Jun",1,28,168,64,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",4694,"Ymi Geoffrey Apithy",1,27,192,96,"Benin","BEN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",58108,"Fabian Raphael Kauter",1,30,181,83,"Switzerland","SUI","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",58108,"Fabian Raphael Kauter",1,30,181,83,"Switzerland","SUI","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",132178,"Andriy Andriyovych Yahodka",1,28,195,85,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",126170,"Bas Verwijlen",1,32,190,85,"Netherlands","NED","2016 Summer",2016,"Summer","Fencing","Fencing Men's epee, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",95564,"Anfisa Sergiivna Pochkalova",0,26,178,70,"Ukraine","UKR","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Team",NA,"Brazil",0,1,0,0
+"Rio de Janeiro",57458,"rem Karamete",0,23,167,60,"Turkey","TUR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",109150,"Mona Shaito",0,22,152,52,"Lebanon","LIB","2016 Summer",2016,"Summer","Fencing","Fencing Women's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",124628,"Maximilien Van Haaster",1,24,185,88,"Canada","CAN","2016 Summer",2016,"Summer","Fencing","Fencing Men's Foil, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",60047,"Kim Ji-Yeon",0,28,165,56,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",31023,"Yekaterina Vladimirovna Dyachenko",0,28,167,53,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Individual",NA,"Brazil",0,0,0,1
+"Rio de Janeiro",60047,"Kim Ji-Yeon",0,28,165,56,"South Korea","KOR","2016 Summer",2016,"Summer","Fencing","Fencing Women's Sabre, Team",NA,"Brazil",0,1,0,1
+"Rio de Janeiro",81068,"Ilya Vladimirovich Mokretsov",1,32,177,74,"Kazakhstan","KAZ","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,0
+"Rio de Janeiro",132051,"Xu Anqi",0,24,182,76,"China","CHN","2016 Summer",2016,"Summer","Fencing","Fencing Women's epee, Individual",NA,"Brazil",0,0,0,2
+"Rio de Janeiro",63464,"Nikolay Anatolyevich Kovalyov",1,29,177,74,"Russia","RUS","2016 Summer",2016,"Summer","Fencing","Fencing Men's Sabre, Individual",NA,"Brazil",0,0,0,1

@@ -1,0 +1,141 @@
+---
+title: "OlympicProject"
+author: "JennyYao"
+date: "08/12/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r libraries}
+library(ggplot2)
+library(dplyr)
+library(ggfortify)
+```
+```{r data}
+olympic <- read.csv("../data/Olympic.csv")
+olympic =  olympic[olympic$Season == 'Summer',]
+attach(olympic)
+```
+
+```{r eda}
+olympic %>% group_by(Sport) %>%
+        summarise(count=n()) %>% arrange(desc(count))
+```
+```{r}
+olympic_fencing =  olympic[olympic$Sport == 'Fencing',]
+```
+```{r}
+olympic_fencing %>% group_by(Medal) %>%
+        summarise(count=n()) %>% arrange(desc(count))
+```
+```{r}
+olympic_fencing = olympic_fencing[olympic_fencing$Team!='Netherlands Antilles', ]
+cities = unique(olympic_fencing$City)
+```
+```{r}
+countries = c('Sweden', 'China', 'Greece', 'Mexico', 'Spain', 'Great Britain', 'Finland', 'Germany', 'Italy', 'Japan', 'Netherlands', 'Brazil', 'United States', 'Canada','Russia', 'South Korea', 'Germany', 'France', 'Australia', 'Australia', 'Belgium', 'United States', 'United States')
+```
+
+```{r}
+city.country = data.frame(City = cities, Country = countries)
+olympic_fencing = merge(x=olympic_fencing, y=city.country, by='City', all.x=TRUE)
+```
+```{r}
+attach(olympic_fencing)
+olympic_fencing$host = ifelse(Team==Country, 1, 0)
+attach(olympic_fencing)
+```
+```{r indev_team}
+try_df = olympic_fencing
+foo = data.frame(do.call('rbind', strsplit(as.character(olympic_fencing$Event, remove=TRUE),',',fixed=TRUE)))
+#Masters are individual as well
+olympic_fencing['TeamEvent'] = ifelse(foo[,2]==' Team', 1, 0)
+olympic_fencing = olympic_fencing[order(Year),]
+#combine West, east, and germany
+olympic_fencing[olympic_fencing == 'West Germany'] = 'Germany'
+olympic_fencing[olympic_fencing == 'FRG'] = 'GER'
+olympic_fencing[olympic_fencing == 'East Germany'] = 'Germany'
+olympic_fencing[olympic_fencing == 'GDR'] = 'GER'
+
+#modify Sex column
+olympic_fencing$Sex[olympic_fencing$Sex == 'M'] = 1
+olympic_fencing$Sex[olympic_fencing$Sex == 'F'] = 0
+olympic_fencing = transform(olympic_fencing, Sex = as.numeric(olympic_fencing$Sex))
+```
+```{r prev_medals}
+olympic_fencing = olympic_fencing
+olympic_fencing['won'] = ifelse(is.na(athletes_df$Medal), 0, 1)
+cs_medals = athletes_df %>%
+        group_by(ID) %>%
+        dplyr::mutate(cs = cumsum(won))
+athletes_df['n_medals'] = cs_medals['cs']-athletes_df['won']
+```
+```{r country_year_table}
+#[, c("ID", "Sex", "Age", "Height", "Weight", "Team", "Year", "Event", "Medal",  "host", "TeamEvent", "won")]
+olympic_fencing_nona = subset(olympic_fencing, !is.na(Age)&!is.na(Height)&!is.na(Weight))
+
+foo1 = olympic_fencing_nona[, c( "Age", "Height", "Weight", "Team", "Year")]
+foo1 = foo1[!duplicated(foo1), ] %>%
+        group_by(Team, Year) %>% summarise(across(c("Age", "Height", "Weight"), mean))
+
+foo2 = olympic_fencing[, c("Sex", "Team", "Year", "ID")]
+foo2 = foo2[!duplicated(foo2), ] %>%
+        group_by(Team, Year) %>% summarise(n_Males = sum(Sex))
+
+foo3 = olympic_fencing[, c("ID",  "Team", "Year", "Event", "host")] %>%
+        group_by(Team, Year) %>% summarise(across(c("host"), mean), n_Events = n_distinct(Event), Team_Size = n_distinct(ID))
+
+foo_41 = olympic_fencing[olympic_fencing$TeamEvent==1,c("Team", "Year", "Medal", "Event", "won")]
+foo_42 = olympic_fencing[olympic_fencing$TeamEvent==0,c("Team", "Year", "Medal", "won")]
+
+foo41 = foo_41 %>%
+        group_by(Team, Year, Event) %>% summarise(won = max(won))%>% 
+        group_by(Team, Year) %>% summarise(n_team_medal = sum(won))
+foo42 = foo_42 %>%
+        group_by(Team, Year) %>% summarise(n_single_medal = sum(won))
+foo4 = left_join(foo41, foo42, by=c("Team", "Year"))
+foo4$n_medals = foo4$n_team_medal + foo4$n_single_medal
+#foo4 =  within(foo4, rm('movieTitle','movieID','imdbLink'))
+countries_df = left_join(foo2, foo1, by=c("Team", "Year"))
+countries_df = left_join(countries_df, foo3, by=c("Team", "Year"))
+countries_df = left_join(countries_df, foo4, by=c("Team", "Year"))
+countries_df[c("n_team_medal", "n_single_medal", "n_medals")][is.na(countries_df[c("n_team_medal", "n_single_medal", "n_medals")])] = 0
+countries_df$n_Females = countries_df$Team_Size - countries_df$n_Males
+```
+
+
+```{r Individual Olympic Athletes} 
+olympic_fencing %>% group_by(host) %>%
+        summarise(count=n())
+```
+```{r Individual Olympic Athletes} 
+olympic_fencing[olympic_fencing$Medal %in% c('Gold', 'Silver', 'Bronze'), ] %>% group_by(host) %>%
+        summarise(count=n())
+```
+
+### PCA
+```{r pca}
+olympic_fencing_labels = olympic_fencing$Medal
+olympic_fencing_vars = within(olympic_fencing, rm('Medal'))
+num_index = unlist(lapply(olympic_fencing, is.numeric), use.names = FALSE)
+olympic_fencing_vars = olympic_fencing[,num_index]
+```
+```{r}
+ prcomp(olympic_fencing_vars, scale=TRUE)
+```
+
+
+
+```{r lda}
+
+```
+

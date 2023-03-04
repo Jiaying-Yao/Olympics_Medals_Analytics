@@ -1,0 +1,306 @@
+---
+title: "FinalOlympic_Jenny"
+author: "JennyYao"
+date: "10/12/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r libraries, echo=FALSE}
+library(ggplot2)
+library(dplyr)
+library(ggfortify)
+library(randomForest)
+library(MASS)
+library(klaR)
+library(rpart)				        
+library(rpart.plot)
+```
+
+## Import Data
+Look at Fencing events in summer Olympics only
+```{r data, echo=FALSE}
+olympic <- read.csv("../data/Olympic.csv")
+olympic =  olympic[olympic$Season == 'Summer',]
+olympic_fencing =  olympic[olympic$Sport == 'Fencing',]
+attach(olympic_fencing)
+
+#Dummify Sex column
+olympic_fencing$Sex[olympic_fencing$Sex == 'M'] = 1
+olympic_fencing$Sex[olympic_fencing$Sex == 'F'] = 0
+olympic_fencing = transform(olympic_fencing, Sex = as.numeric(olympic_fencing$Sex))
+#remove Netherlands Antilles team since it belongs to two countries
+olympic_fencing = olympic_fencing[olympic_fencing$Team!='Netherlands Antilles', ]
+#combine west germany, east germany, and germany
+olympic_fencing[olympic_fencing == 'West Germany'] = 'Germany'
+olympic_fencing[olympic_fencing == 'FRG'] = 'GER'
+olympic_fencing[olympic_fencing == 'East Germany'] = 'Germany'
+olympic_fencing[olympic_fencing == 'GDR'] = 'GER'
+
+#city and country of host
+#host = 1 if the athlete's team is the host country
+cities = unique(olympic_fencing$City)
+countries = c('Sweden', 'China', 'Greece', 'Mexico', 'Spain', 'Great Britain', 'Finland', 'Germany', 'Italy', 'Japan', 'Netherlands', 'Brazil', 'United States', 'Canada','Russia', 'South Korea', 'Germany', 'France', 'Australia', 'Australia', 'Belgium', 'United States', 'United States')
+city.country = data.frame(City = cities, Country = countries)
+olympic_fencing = merge(x=olympic_fencing, y=city.country, by='City', all.x=TRUE)
+olympic_fencing$host = ifelse(olympic_fencing$Team==olympic_fencing$Country, 1, 0)
+
+#TeamEvent = 1 if this event is in teams
+foo = data.frame(do.call('rbind', strsplit(as.character(olympic_fencing$Event, remove=TRUE),',',fixed=TRUE)))
+olympic_fencing['TeamEvent'] = ifelse(foo[,2]==' Team', 1, 0)
+
+#won = 1 if the athlete gained a medal in this game
+olympic_fencing['won'] = ifelse(is.na(olympic_fencing$Medal), 0, 1)
+olympic_fencing_nona = subset(olympic_fencing, !is.na(Age)&!is.na(Height)&!is.na(Weight))
+attach(olympic_fencing)
+```
+## Exploratory Data Analysis
+### athlete_df/athlete_df_nona: Athletes-wise dataset
+n_medals = number of medals the athlete has gained before this game (measure the ability) (maybe score can be better)
+```{r}
+athletes_df = olympic_fencing
+cs_medals = athletes_df %>%
+        group_by(ID) %>%
+        dplyr::mutate(cs = cumsum(won))
+athletes_df['n_medals'] = cs_medals['cs']-athletes_df['won']
+athletes_df_nona = subset(athletes_df, !is.na(Age)&!is.na(Height)&!is.na(Weight))
+```
+#### Profiling
+Number of distinct values in each column
+```{r}
+sapply(athletes_df, n_distinct)
+```
+```{r}
+athletes_df[,c('City', 'Sex', 'Year', 'Event', 'Medal', 'Country', 'Team', 'host', 'won')] %>%
+        sapply(table)
+```
+
+#### Data Visualization
+1. Won vs not Won
+```{r}
+plot_df = athletes_df
+plot_df = transform(plot_df, won = as.character(plot_df$won))
+plot_df$won=as.factor(plot_df$won)
+plot_df = transform(plot_df, host = as.character(plot_df$host))
+plot_df$host=as.factor(plot_df$host)
+ggplot(plot_df, aes(group=won, x=won, y=Height, fill=won)) + 
+        stat_boxplot(geom="errorbar", width=0.25) + geom_boxplot()+
+        ylab("Height")
+
+ggplot(plot_df, aes(group=won, x=won, y=Weight, fill=won)) + 
+        stat_boxplot(geom="errorbar", width=0.25) + geom_boxplot()+
+        ylab("Weight")
+
+ggplot(plot_df, aes(group=won, x=won, y=Age, fill=won)) + 
+        stat_boxplot(geom="errorbar", width=0.25) + geom_boxplot()+
+        ylab("Age")
+
+ggplot(plot_df, aes(group=won, x=won, y=n_medals, fill=won)) + 
+        stat_boxplot(geom="errorbar", width=0.25) + geom_boxplot()+
+        ylab("Previous Number of Medals")
+```
+```{r}
+ggplot(plot_df, aes(x=n_medals, y=host, col=won)) +
+        geom_point()+
+        labs(x="Number of Previous Medals", y="Is the Host")
+```
+Host vs not_host:
+for athletes who have less experience, playing when his country is the host benefits him; for experienced players, it does not matter that much
+when the athlete is older than 32, playing when the country is the host benefits him
+```{r}
+ggplot(plot_df[plot_df$won=='1',], aes(x=n_medals, col=host)) + geom_density()+xlab("Number of Previous Medals")
+ggplot(plot_df[plot_df$won=='1',], aes(x=Age, col=host)) + geom_density()+xlab("Age")
+```
+
+### Country-wise
+```{r}
+foo1 = olympic_fencing_nona[, c( "Age", "Height", "Weight", "Team", "Year")]
+foo1 = foo1[!duplicated(foo1), ] %>%
+        group_by(Team, Year) %>% summarise(across(c("Age", "Height", "Weight"), mean))
+
+foo2 = olympic_fencing[, c("Sex", "Team", "Year", "ID")]
+foo2 = foo2[!duplicated(foo2), ] %>%
+        group_by(Team, Year) %>% summarise(n_Males = sum(Sex))
+
+foo3 = olympic_fencing[, c("ID",  "Team", "Year", "Event", "host")] %>%
+        group_by(Team, Year) %>% summarise(across(c("host"), mean), n_Events = n_distinct(Event), Team_Size = n_distinct(ID))
+
+foo_41 = olympic_fencing[olympic_fencing$TeamEvent==1,c("Team", "Year", "Medal", "Event", "won")]
+foo_42 = olympic_fencing[olympic_fencing$TeamEvent==0,c("Team", "Year", "Medal", "won")]
+
+foo41 = foo_41 %>%
+        group_by(Team, Year, Event) %>% summarise(won = max(won))%>% 
+        group_by(Team, Year) %>% summarise(n_team_medal = sum(won))
+foo42 = foo_42 %>%
+        group_by(Team, Year) %>% summarise(n_single_medal = sum(won))
+foo4 = left_join(foo41, foo42, by=c("Team", "Year"))
+foo4$n_medals = foo4$n_team_medal + foo4$n_single_medal
+#foo4 =  within(foo4, rm('movieTitle','movieID','imdbLink'))
+countries_df = left_join(foo2, foo1, by=c("Team", "Year"))
+countries_df = left_join(countries_df, foo3, by=c("Team", "Year"))
+countries_df = left_join(countries_df, foo4, by=c("Team", "Year"))
+countries_df[c("n_team_medal", "n_single_medal", "n_medals")][is.na(countries_df[c("n_team_medal", "n_single_medal", "n_medals")])] = 0
+countries_df$n_Females = countries_df$Team_Size - countries_df$n_Males
+
+foo = countries_df[,c("Year", "n_medals")] %>% group_by(Year) %>% summarise(total_medals = sum(n_medals))
+foo = left_join(countries_df, foo, by=c("Year"))
+countries_df = foo%>% mutate(prop_medal = n_medals/total_medals)%>%within(rm(total_medals))
+
+cs_medals = countries_df %>%
+        group_by(Team) %>%
+        dplyr::mutate(cs = cumsum(n_medals))
+countries_df['cum_n_medals'] = cs_medals['cs']-countries_df['n_medals']
+```
+
+#### Profiling
+Number of distinct values in each column
+```{r}
+sapply(countries_df, n_distinct)
+```
+France and Italy participated 27 times in 120 years
+```{r}
+countries_df[,c('Year', 'Team', 'host')] %>%
+        sapply(table)
+```
+#### Visualization
+```{r}
+plot2_df = countries_df %>% group_by(Year) %>% summarise(count=n())
+ggplot(plot2_df, aes(x=Year, y=count)) + geom_line()+ labs(x="Year", y="Number of countries participated") + geom_smooth()
+```
+```{r}
+ggplot(countries_df[countries_df$Team %in% c("France",  "United States", "Italy", "Sweden", "Austria", "Great Britain", "Hungary", "Germany"),], aes(x=Year, prop_medal, group=Team, col=Team                                                                       )) + geom_line()+geom_point()
+```
+1942 France, 1960 Italy, 1904 Great Britain
+```{r}
+plot3_df = transform(countries_df, host = as.character(countries_df$host))
+plot3_df$host=as.factor(plot3_df$host)
+plot3_df = plot3_df[plot3_df$Year >1900,c("Year", "host", "n_medals")]%>%
+        group_by(Year, host)%>%summarise(mean_medal = mean(n_medals))
+ggplot(plot3_df, aes(x=Year, y=mean_medal, col=host))+
+        geom_line()+ xlab("Year")
+```
+
+France were host in 1900 and 1924, the proportion of wining the medal were higher than the historical average
+but lower than historical peak
+```{r}
+ggplot(countries_df[countries_df$Team=='France'&countries_df$Year>=1900, ], aes(x=Year, y = prop_medal)) + geom_line() +
+        geom_hline(yintercept = mean(
+                countries_df[countries_df$Team=='France'&countries_df$Year>1900, ]$prop_medal), 
+                color="blue")+
+        geom_text(aes(label = round(prop_medal,2)),
+            vjust = "inward", hjust = "inward",
+            show.legend = FALSE)
+```
+```{r}
+ggplot(countries_df[countries_df$Team=='Italy'&countries_df$Year>=1900, ], aes(x=Year, y = prop_medal)) + geom_line() +
+        geom_hline(yintercept = mean(
+                countries_df[countries_df$Team=='Italy'&countries_df$Year>1900, ]$prop_medal), 
+                color="blue")+
+        geom_text(aes(label = round(prop_medal,2)),
+            vjust = "inward", hjust = "inward",
+            show.legend = FALSE)
+```
+```{r}
+ggplot(countries_df[countries_df$Team=='United States'&countries_df$Year>=1900, ], aes(x=Year, y = prop_medal)) + geom_line() +
+        geom_hline(yintercept = mean(
+                countries_df[countries_df$Team=='United States'&countries_df$Year>1900, ]$prop_medal), 
+                color="blue")+
+        geom_text(aes(label = round(prop_medal,2)),
+            vjust = "inward", hjust = "inward",
+            show.legend = FALSE)
+```
+
+
+### Principle Component Analysis: importand feature
+```{r}
+#athletes_num_index = unlist(lapply(athletes_df_nona, is.numeric), use.names = FALSE)
+#athletes_num_var = athletes_df_nona[,athletes_num_index]
+athletes_num_var = athletes_df_nona[,c("Sex", "Age", "Height", "Weight", "Year", "host", "TeamEvent", "won", "n_medals")]
+prcomp(athletes_num_var, scale=TRUE)
+```
+```{r}
+pca = prcomp(athletes_num_var, scale=TRUE)
+autoplot(pca, data = athletes_num_var, loadings = TRUE,  loadings.label = TRUE )
+```
+### Data Cleaning
+```{r}
+countries_model_df = within(countries_df, rm("Team", "n_team_medal", "n_single_medal"))
+countries_model_df = countries_model_df[countries_model_df$Year>1900, ]
+#countries_model_df = transform(countries_model_df, host = as.character(countries_model_df$host))
+countries_model_df$host = as.factor(countries_model_df$host)
+
+#athletes_model_df = transform(athletes_df_nona, won = as.character(countries_model_df$won))
+athletes_model_df = athletes_df
+athletes_model_df$won = as.factor(athletes_model_df$won)
+#athletes_model_df = transform(athletes_model_df, host = as.character(athletes_model_df$host))
+athletes_model_df$host = as.factor(athletes_model_df$host)
+
+
+```
+
+
+### Classification Tree: Predict whether an athlete will win a madel
+```{r echo=FALSE}
+attach(athletes_model_df)
+classtree = rpart(won~Sex+Age+Weight+Height+Year+host+TeamEvent+n_medals, data = athletes_model_df, cp=0.01, na.action=na.omit)
+rpart.plot(classtree)
+```
+```{r}
+summary(classtree)
+```
+```{r}
+#lassforest = randomForest(won~Sex+Age+Weight+Height+Year+host+TeamEvent+n_medals, data = athletes_model_df, cp=0.01, na.action=na.omit)
+classforest = randomForest(won~Sex+Age+Weight+Height+Year+host+TeamEvent+n_medals, data = athletes_model_df, cp=0.01, na.action=na.omit)
+classforest
+```
+
+### Regression Tree: Predict the prop_medal win by each country each year
+#### Model
+```{r}
+#myforest=randomForest(prop_medal~n_Males+Age+Height+Weight+n_Events+Team_Size+n_Females+cum_n_medals+Year, ntree=500, data=countries_model_df, importance=TRUE,  na.action = na.omit)
+myforest=randomForest(prop_medal~Age+Height+Weight+Year, ntree=500, data=countries_model_df, importance=TRUE,  na.action = na.omit)
+myforest
+```
+
+#Tune model using OOB
+```{r}
+myforest=randomForest(prop_medal~n_Males+Age+Height+Weight+n_Events+Team_Size+n_Females+cum_n_medals+Year, ntree=1000, data=countries_model_df, importance=TRUE,  na.action = na.omit, do.trace=100)
+```
+
+#### Feature Importance
+```{r}
+importance(myforest)
+```
+
+### Predict French's result in 2024
+Assume Athletes are the same from 2016
+Since we cannot use external data, I have no access to the data for 2022 Tokyo Olympic
+#### Create a dataset for 2024
+```{r}
+athletes2016_df = athletes_df_nona[athletes_df_nona$Year == 2016, ]
+countries2016_df = countries_df[countries_df$Year == 2016, ]
+athletes2016_df$Age = athletes2016_df$Age + 8
+countries2016_df$Age = countries2016_df$Age + 8
+athletes2016_df$Year = athletes2016_df$Year + 8
+countries2016_df$Year = countries2016_df$Year + 8
+
+athletes2016_df$n_medals = athletes2016_df$n_medals + athletes2016_df$won
+athletes2016_df = within(athletes2016_df, rm("City", "won", "Games", "Medal"))
+athletes2016_df$host = ifelse(athletes2016_df$Team == 'France', 1, 0)
+
+countries2016_df$cum_n_medals = countries2016_df$n_medals + countries2016_df$cum_n_medals
+countries2016_df = within(countries2016_df, rm("n_medals", "n_team_medal", "n_single_medal", "prop_medal"))
+countries2016_df$host = ifelse(countries2016_df$Team == 'France', 1, 0)
+
+
+write.csv(athletes2016_df, "../data/Athletes2024.csv", row.names=FALSE)
+write.csv(countries2016_df, "../data/Countries2024.csv", row.names=FALSE)
+```
+
+#### Predict Medal portion agained by each team
+```{r}
+
+```
+
